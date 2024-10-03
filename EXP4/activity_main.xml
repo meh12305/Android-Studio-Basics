@@ -1,0 +1,197 @@
+<!-- activity_main.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="18dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:hint="Student Name"
+            />
+
+        <EditText
+            android:id="@+id/etRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll Number"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etMotherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother's Name"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etMotherPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother's Phone Number"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etFatherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Name"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etFatherPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Phone Number"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:text="Residency"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/rgDayScholar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:id="@+id/rbDayScholar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day Scholar"
+                android:layout_marginStart="40dp"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbDAYSCHOLAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAYSCHOLAR"
+                android:layout_marginStart="80dp"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:text="Admission Type"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/rgManagement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:id="@+id/rbManagement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Management"
+                android:layout_marginStart="40dp"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbCounseling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Counseling"
+                android:layout_marginStart="72dp"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CGPA"
+            android:background="@drawable/box_back"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Save"
+            android:backgroundTint="#6495ED"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Search"
+            android:backgroundTint="#6495ED"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</ScrollView>
