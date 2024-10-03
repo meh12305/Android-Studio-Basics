@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="412dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="100dp"
+        android:background="#d2d7e7"
+        android:padding="16dp"
+        android:textAlignment="textEnd"
+        android:textSize="36sp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/black"
+        android:focusable="false"
+        android:gravity="right"
+        android:inputType="none"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:text="HEENA"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:layout_marginTop="30dp"/>
+
+    <GridLayout
+        android:layout_width="407dp"
+        android:layout_height="534dp"
+        android:layout_below="@+id/editText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:columnCount="4"
+        android:rowCount="6">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="30sp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/buttonSquareRoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="√"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/buttonSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x²"
+            android:textSize="28sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textSize="30sp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+           />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="30sp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+          />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/buttonSubtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="30sp"
+            android:backgroundTint="#e1ad01"
+           />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:backgroundTint="#e1ad01"
+            />
+
+        <Button
+            android:id="@+id/buttonDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/buttonEqual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/buttonParenthesis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="()"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <!-- Row 6 -->
+        <Button
+            android:id="@+id/buttonSin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sin"
+            android:textSize="30sp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/buttonCos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cos"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/buttonTan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tan"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+        <Button
+            android:id="@+id/buttonLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="log"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#e1ad01"/>
+
+
+
+    </GridLayout>
+
+</RelativeLayout>
